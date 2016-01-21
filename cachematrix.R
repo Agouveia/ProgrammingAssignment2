@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## makeCacheMatrix uses scoping rules and stores matrices in memory
 
 makeCacheMatrix <- function(X = matrix()) {
@@ -14,7 +11,6 @@ makeCacheMatrix <- function(X = matrix()) {
     getinverse <- function() inverse
     list(set=set,get=get,setinverse=setinverse,getinverse=getinverse)
 }
-
 
 ## cacheSolve uses corpcor, a library that avoids determinants and uses orthogonal descomposition
 ## note: this function will try to load corpcor library and if it's not installed will try to install the library
